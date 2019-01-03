@@ -5,8 +5,8 @@ html
     script(type='text/javascript', id='astro-identity', src='https://s3-ap-southeast-1.amazonaws.com/sso-javascript-sdk/v1/main.js?partnerKey=' + partnerKey)
     script(type='text/javascript').
       window.sso.authenticate({ 'continue': !{JSON.stringify(domain)} });
-    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
-    link(rel="stylesheet", href="/stylesheets/style.css")
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
-    script(type='text/javascript', src='https://code.jquery.com/jquery-3.3.1.min.js', integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=", crossorigin="anonymous")
+    script(type='text/javascript', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
