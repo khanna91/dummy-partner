@@ -1,0 +1,5 @@
+module.exports = {
+  partnerName: "Gempak",
+  domain: "http://localhost:3000",
+  partnerKey: "ngrock"
+};
